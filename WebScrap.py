@@ -1,10 +1,15 @@
 import requests
 from bs4 import BeautifulSoup
 from pprint import pprint
+import json
 
 def salvador(nome, conteudo):
     with open(nome, 'w') as arquivo_html:
         arquivo_html.write(str(conteudo))
+
+def salvador_json(nome, conteudo):
+    with open(f'{nome}.json', 'w', encoding='utf-8') as arquivo_json:
+        json.dump(conteudo, arquivo_json, ensure_ascii=False, indent=4)
         
 class Stardew:
     def __init__(self):
@@ -33,39 +38,68 @@ class Conjuntos():
     def __init__(self, res):
         self.res = res
         
-    def coletar_conjuntos(self):
-        conjuntos_res = BeautifulSoup(self.res, 'html.parser').find(class_='mw-content-ltr').find('div', class_='mw-parser-output').find_all('table')
-        
-        for conjunto in conjuntos_res[1:]:
-            if conjunto.find(class_='wikitable'):
-                itens_conjuntos = conjunto.find_all('td')
-            
-                self.filtrar_itens(itens_conjuntos)
-                    
-                    
+    def coletar_salas(self):
+        salas = []
+        salas_res = BeautifulSoup(self.res, 'html.parser').find(class_='mw-content-ltr').find('div', class_='mw-parser-output').find_all('table')
     
-    def filtrar_itens(self, conjuntos_res):
+        for sala in salas_res[1:]:
+            if sala.find(class_='wikitable'):
+                salas.append(sala)
+                
+        return salas
+                    
+    def coletar_conjuntos(self, sala_res):
+        conjuntos = []
+
+        conjuntos_res = sala_res.find_all('table')
         
         for conjunto_res in conjuntos_res:
-            salvador('teste', conjunto_res)
+            if conjunto_res.get('style'):
+                continue
             
-            input()
+            nomes = conjunto_res.find_all('tr')
+            conjuntos.append(nomes)
         
+        return conjuntos
+    
+    def organizar_conjunto(self, conjunto_res):
+        titulo = conjunto_res[0].text.strip()
+        conjunto = [titulo]
         
-        input()
+        print(titulo)
         
-        # itens = itens_res.find_all(class_='wikitable')
+        for info in conjunto_res[1:-1]:
+            info_res = info.find_all('td')
+            
+            item = info_res[len(info_res) - 2]
+           
+            conjunto.append(item.text.strip())
         
-        # print(itens_res)
-        # print(itens)
-        
-        # for item in itens:
-        #     print('Estouaqui')
-        #     print(item.text)
-        #     input()
+        return conjunto          
             
     def main(self):
-        conjuntos = self.coletar_conjuntos()
+        salas_organizada = []
+        salas = self.coletar_salas()
+        
+        for sala in salas[:6]:
+            conjuntos = []
+            conjuntos_res = self.coletar_conjuntos(sala)
+            
+            for conjunto_res in conjuntos_res:
+                conjunto = self.organizar_conjunto(conjunto_res)
+                
+                conjuntos.append(conjunto)
+                print(conjuntos)
+                
+                
+            
+            
+            salas_organizada.append(conjuntos)
+            
+            
+        
+        
+        salvador_json('salvapf', salas_organizada)
 
 if __name__ == "__main__":
     Stardew().main()
