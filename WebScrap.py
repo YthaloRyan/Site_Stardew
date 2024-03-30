@@ -51,7 +51,7 @@ class Conjuntos():
     def coletar_conjuntos(self, sala_res):
         conjuntos = []
 
-        conjuntos_res = sala_res.find_all('table')
+        conjuntos_res = sala_res.find_all('table', class_='wikitable')
         
         for conjunto_res in conjuntos_res:
             if conjunto_res.get('style'):
@@ -66,22 +66,29 @@ class Conjuntos():
         titulo = conjunto_res[0].text.strip()
         conjunto = [titulo]
         
-        print(titulo)
-        
-        for info in conjunto_res[1:-1]:
-            info_res = info.find_all('td')
+        for n, info in enumerate(conjunto_res[1:-1]):
+            lista_palavras = []
+            item = info.find_all('a')
             
-            item = info_res[len(info_res) - 2]
-           
-            conjunto.append(item.text.strip())
+            
+            if n == 0:
+                item = item[1]
+            else:
+                item = item[0]
+            
+            item = item.text.strip()
+            
+            if item not in conjunto:
+                conjunto.append(item)
         
-        return conjunto          
+        return conjunto
             
     def main(self):
+        self.teste = False
         salas_organizada = []
         salas = self.coletar_salas()
         
-        for sala in salas[:6]:
+        for sala in salas[:5]:
             conjuntos = []
             conjuntos_res = self.coletar_conjuntos(sala)
             
@@ -89,7 +96,6 @@ class Conjuntos():
                 conjunto = self.organizar_conjunto(conjunto_res)
                 
                 conjuntos.append(conjunto)
-                print(conjuntos)
                 
                 
             

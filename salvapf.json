@@ -29,10 +29,9 @@
         ],
         [
             "Conjunto Construção",
-            "Madeira (99)",
-            "Madeira (99)",
-            "Pedra (99)",
-            "Madeira de lei (10)"
+            "Madeira",
+            "Pedra",
+            "Madeira de lei"
         ],
         [
             "Conjunto Recursos Exóticos",
@@ -71,26 +70,10 @@
         ],
         [
             "Conjunto Plantações de Qualidade",
-            "Chirívia (5)",
-            "",
-            "Melão (5)",
-            "",
-            "Abóbora (5)",
-            "",
-            "(5)",
+            "Chirívia",
+            "Melão",
+            "Abóbora",
             "Milho"
-        ],
-        [
-            "Chirívia (5)"
-        ],
-        [
-            "Melão (5)"
-        ],
-        [
-            "Abóbora (5)"
-        ],
-        [
-            "Milho (5)"
         ],
         [
             "Conjunto Animal",
@@ -103,7 +86,7 @@
         ],
         [
             "Conjunto Artesão",
-            "Óleo de trufas (1)",
+            "Óleo de trufas",
             "Tecido",
             "Queijo de cabra",
             "Queijo",
@@ -182,8 +165,8 @@
         ],
         [
             "Conjunto de Aventureiro",
-            "Gosma (99)",
-            "Asa de morcego (10)",
+            "Gosma",
+            "Asa de morcego",
             "Essência solar",
             "Essência nula"
         ]
@@ -216,9 +199,9 @@
         ],
         [
             "Conjunto Forragem",
-            "Trigo (10)",
-            "Palha (10)",
-            "Maçã (3)"
+            "Trigo",
+            "Palha",
+            "Maçã"
         ],
         [
             "Conjunto de Encantador",
@@ -226,24 +209,6 @@
             "Vinho",
             "Pé de coelho",
             "Romã"
-        ]
-    ],
-    [
-        [
-            "Conjunto 2.500 ouros",
-            ""
-        ],
-        [
-            "Conjunto 5.000 ouros",
-            ""
-        ],
-        [
-            "Conjunto 10.000 ouros",
-            ""
-        ],
-        [
-            "Conjunto 25.000 ouros",
-            ""
         ]
     ]
 ]
