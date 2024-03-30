@@ -29,9 +29,9 @@
         ],
         [
             "Conjunto Construção",
-            "Madeira",
-            "Pedra",
-            "Madeira de lei"
+            "Madeira (99)",
+            "Pedra (99)",
+            "Madeira de lei (10)"
         ],
         [
             "Conjunto Recursos Exóticos",
@@ -70,10 +70,10 @@
         ],
         [
             "Conjunto Plantações de Qualidade",
-            "Chirívia",
-            "Melão",
-            "Abóbora",
-            "Milho"
+            "Chirívia (5)",
+            "Melão (5)",
+            "Abóbora (5)",
+            "Milho (5)"
         ],
         [
             "Conjunto Animal",
@@ -86,7 +86,7 @@
         ],
         [
             "Conjunto Artesão",
-            "Óleo de trufas",
+            "Óleo de trufas (1)",
             "Tecido",
             "Queijo de cabra",
             "Queijo",
@@ -165,8 +165,8 @@
         ],
         [
             "Conjunto de Aventureiro",
-            "Gosma",
-            "Asa de morcego",
+            "Gosma (99)",
+            "Asa de morcego (10)",
             "Essência solar",
             "Essência nula"
         ]
@@ -199,9 +199,9 @@
         ],
         [
             "Conjunto Forragem",
-            "Trigo",
-            "Palha",
-            "Maçã"
+            "Trigo (10)",
+            "Palha (10)",
+            "Maçã (3)"
         ],
         [
             "Conjunto de Encantador",
@@ -209,6 +209,24 @@
             "Vinho",
             "Pé de coelho",
             "Romã"
+        ]
+    ],
+    [
+        [
+            "Conjunto 2.500 ouros",
+            "data-sort-value=\"2500\">2 500 ouros"
+        ],
+        [
+            "Conjunto 5.000 ouros",
+            "data-sort-value=\"5000\">5 000 ouros"
+        ],
+        [
+            "Conjunto 10.000 ouros",
+            "data-sort-value=\"10000\">10 000 ouros"
+        ],
+        [
+            "Conjunto 25.000 ouros",
+            "data-sort-value=\"25000\">25 000 ouros"
         ]
     ]
 ]

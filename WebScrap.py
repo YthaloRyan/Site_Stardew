@@ -66,17 +66,8 @@ class Conjuntos():
         titulo = conjunto_res[0].text.strip()
         conjunto = [titulo]
         
-        for n, info in enumerate(conjunto_res[1:-1]):
-            lista_palavras = []
-            item = info.find_all('a')
-            
-            
-            if n == 0:
-                item = item[1]
-            else:
-                item = item[0]
-            
-            item = item.text.strip()
+        for info in conjunto_res[1:-1]:
+            item = info.text.strip().split('\n')[0]
             
             if item not in conjunto:
                 conjunto.append(item)
@@ -88,7 +79,7 @@ class Conjuntos():
         salas_organizada = []
         salas = self.coletar_salas()
         
-        for sala in salas[:5]:
+        for sala in salas[:6]:
             conjuntos = []
             conjuntos_res = self.coletar_conjuntos(sala)
             
