@@ -4,7 +4,7 @@ class ScrapSalas:
     def __init__(self, site_res):
         self.bs_salas = BeautifulSoup(site_res, 'html.parser')
     
-    def coletar_salas(self):
+    def coletar_salas(self) -> list:
         salas = []
         salas_res = self.bs_salas.find(class_='mw-content-ltr').find('div', class_='mw-parser-output').find_all('table')
 
@@ -14,7 +14,7 @@ class ScrapSalas:
            
         return salas
     
-    def coletar_nomes_salas(self):
+    def coletar_nomes_salas(self) -> list:
         nomes_salas = []
         nomes_salas_res = self.bs_salas.find_all('h2')
         

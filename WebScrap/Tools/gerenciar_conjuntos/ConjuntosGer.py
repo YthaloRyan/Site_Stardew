@@ -5,7 +5,7 @@ class Conjuntos():
         self.res = res
         self.salas = salas
                     
-    def coletar_conjuntos(self, sala_res):
+    def coletar_conjuntos(self, sala_res) -> list:
         conjuntos = []
 
         conjuntos_res = sala_res.find_all('table', class_='wikitable')
@@ -19,19 +19,21 @@ class Conjuntos():
         
         return conjuntos
     
-    def organizar_conjunto(self, conjunto_res):
+    def organizar_conjunto(self, conjunto_res) -> dict:
+        
         titulo = conjunto_res[0].text.strip()
-        conjunto = [titulo]
+        conjunto = {titulo: []}
         
         for info in conjunto_res[1:-1]:
             item = info.text.strip().split('\n')[0]
             
-            if item not in conjunto:
-                conjunto.append(item)
+            if item not in conjunto[titulo]:
+                conjunto[titulo].append(item)
         
+        print(type(conjunto))
         return conjunto
             
-    def main(self):
+    def main(self) -> list:
         salas_organizadas = []
         
         for sala in self.salas[:6]:
@@ -45,5 +47,5 @@ class Conjuntos():
 
             salas_organizadas.append(conjuntos)
         
-        print(salas_organizadas)
+
         return salas_organizadas

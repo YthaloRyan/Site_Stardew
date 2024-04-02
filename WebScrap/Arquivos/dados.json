@@ -1,232 +1,262 @@
-[
-    [
-        [
-            "Conjunto Recursos de Primavera",
-            "Raiz-forte",
-            "Narciso",
-            "Alho-poró",
-            "Dente-de-leão"
-        ],
-        [
-            "Conjunto Recursos de Verão",
-            "Uva",
-            "Café de jardim",
-            "Ervilha-de-cheiro"
-        ],
-        [
-            "Conjunto Recursos de Outono",
-            "Cogumelo comum",
-            "Ameixa selvagem",
-            "Avelã",
-            "Amora"
-        ],
-        [
-            "Conjunto Recursos de Inverno",
-            "Raiz de inverno",
-            "Fruta de cristal",
-            "Inhame de neve",
-            "Flor de açafrão"
-        ],
-        [
-            "Conjunto Construção",
-            "Madeira (99)",
-            "Pedra (99)",
-            "Madeira de lei (10)"
-        ],
-        [
-            "Conjunto Recursos Exóticos",
-            "Coco",
-            "Fruto do cacto",
-            "Cenoura subterrânea",
-            "Cogumelo vermelho",
-            "Cogumelo roxo",
-            "Xarope de ácer",
-            "Resina de carvalho",
-            "Alcatrão de pinho",
-            "Morel"
-        ]
+{
+    "Sala de Artesanato": [
+        {
+            "Conjunto Recursos de Primavera": [
+                "Raiz-forte",
+                "Narciso",
+                "Alho-poró",
+                "Dente-de-leão"
+            ]
+        },
+        {
+            "Conjunto Recursos de Verão": [
+                "Uva",
+                "Café de jardim",
+                "Ervilha-de-cheiro"
+            ]
+        },
+        {
+            "Conjunto Recursos de Outono": [
+                "Cogumelo comum",
+                "Ameixa selvagem",
+                "Avelã",
+                "Amora"
+            ]
+        },
+        {
+            "Conjunto Recursos de Inverno": [
+                "Raiz de inverno",
+                "Fruta de cristal",
+                "Inhame de neve",
+                "Flor de açafrão"
+            ]
+        },
+        {
+            "Conjunto Construção": [
+                "Madeira (99)",
+                "Pedra (99)",
+                "Madeira de lei (10)"
+            ]
+        },
+        {
+            "Conjunto Recursos Exóticos": [
+                "Coco",
+                "Fruto do cacto",
+                "Cenoura subterrânea",
+                "Cogumelo vermelho",
+                "Cogumelo roxo",
+                "Xarope de ácer",
+                "Resina de carvalho",
+                "Alcatrão de pinho",
+                "Morel"
+            ]
+        }
     ],
-    [
-        [
-            "Conjunto Plantações de Primavera",
-            "Chirívia",
-            "Vagem",
-            "Couve-flor",
-            "Batata"
-        ],
-        [
-            "Conjunto Plantações de Verão",
-            "Tomate",
-            "Pimenta quente",
-            "Mirtilo",
-            "Melão"
-        ],
-        [
-            "Conjunto Plantações de Outono",
-            "Milho",
-            "Berinjela",
-            "Abóbora",
-            "Inhame"
-        ],
-        [
-            "Conjunto Plantações de Qualidade",
-            "Chirívia (5)",
-            "Melão (5)",
-            "Abóbora (5)",
-            "Milho (5)"
-        ],
-        [
-            "Conjunto Animal",
-            "Leite grande",
-            "Ovo grande marrom",
-            "Ovo grande",
-            "Leite grande de cabra",
-            "Lã",
-            "Ovo de pata"
-        ],
-        [
-            "Conjunto Artesão",
-            "Óleo de trufas (1)",
-            "Tecido",
-            "Queijo de cabra",
-            "Queijo",
-            "Mel",
-            "Geléia",
-            "Maçã",
-            "Damasco",
-            "Laranja",
-            "Pêssego",
-            "Romã",
-            "Cereja"
-        ]
+    "Copa": [
+        {
+            "Conjunto Plantações de Primavera": [
+                "Chirívia",
+                "Vagem",
+                "Couve-flor",
+                "Batata"
+            ]
+        },
+        {
+            "Conjunto Plantações de Verão": [
+                "Tomate",
+                "Pimenta quente",
+                "Mirtilo",
+                "Melão"
+            ]
+        },
+        {
+            "Conjunto Plantações de Outono": [
+                "Milho",
+                "Berinjela",
+                "Abóbora",
+                "Inhame"
+            ]
+        },
+        {
+            "Conjunto Plantações de Qualidade": [
+                "Chirívia (5)",
+                "Melão (5)",
+                "Abóbora (5)",
+                "Milho (5)"
+            ]
+        },
+        {
+            "Conjunto Animal": [
+                "Leite grande",
+                "Ovo grande marrom",
+                "Ovo grande",
+                "Leite grande de cabra",
+                "Lã",
+                "Ovo de pata"
+            ]
+        },
+        {
+            "Conjunto Artesão": [
+                "Óleo de trufas (1)",
+                "Tecido",
+                "Queijo de cabra",
+                "Queijo",
+                "Mel",
+                "Geléia",
+                "Maçã",
+                "Damasco",
+                "Laranja",
+                "Pêssego",
+                "Romã",
+                "Cereja"
+            ]
+        }
     ],
-    [
-        [
-            "Conjunto Peixes de Rio",
-            "Peixe-sol",
-            "Bagre",
-            "Alocine",
-            "Salmão híbrido"
-        ],
-        [
-            "Conjunto Peixes de Lago",
-            "Achigã",
-            "Carpa",
-            "Peixe-gato",
-            "Esturjão"
-        ],
-        [
-            "Conjunto Peixes de Oceano",
-            "Sardinha",
-            "Atum",
-            "Cioba",
-            "Tilápia"
-        ],
-        [
-            "Conjunto Pesca Noturna",
-            "Picão-verde",
-            "Brema",
-            "Enguia"
-        ],
-        [
-            "Conjunto Covo",
-            "Lagosta",
-            "Lagostim",
-            "Caranguejo",
-            "Berbigão",
-            "Mexilhão",
-            "Camarão",
-            "Lesma",
-            "Caramujo",
-            "Ostra",
-            "Concha"
-        ],
-        [
-            "Conjunto Peixes Especializados",
-            "Baiacu",
-            "Peixe-fantasma",
-            "Areinha",
-            "Madeirão"
-        ]
+    "Aquário": [
+        {
+            "Conjunto Peixes de Rio": [
+                "Peixe-sol",
+                "Bagre",
+                "Alocine",
+                "Salmão híbrido"
+            ]
+        },
+        {
+            "Conjunto Peixes de Lago": [
+                "Achigã",
+                "Carpa",
+                "Peixe-gato",
+                "Esturjão"
+            ]
+        },
+        {
+            "Conjunto Peixes de Oceano": [
+                "Sardinha",
+                "Atum",
+                "Cioba",
+                "Tilápia"
+            ]
+        },
+        {
+            "Conjunto Pesca Noturna": [
+                "Picão-verde",
+                "Brema",
+                "Enguia"
+            ]
+        },
+        {
+            "Conjunto Covo": [
+                "Lagosta",
+                "Lagostim",
+                "Caranguejo",
+                "Berbigão",
+                "Mexilhão",
+                "Camarão",
+                "Lesma",
+                "Caramujo",
+                "Ostra",
+                "Concha"
+            ]
+        },
+        {
+            "Conjunto Peixes Especializados": [
+                "Baiacu",
+                "Peixe-fantasma",
+                "Areinha",
+                "Madeirão"
+            ]
+        }
     ],
-    [
-        [
-            "Conjunto de Ferreiro",
-            "Barra de cobre",
-            "Barra de ferro",
-            "Barra de ouro"
-        ],
-        [
-            "Conjunto de Geólogo",
-            "Quartzo",
-            "Cristal de terra",
-            "Lágrima congelada",
-            "Quartzo de fogo"
-        ],
-        [
-            "Conjunto de Aventureiro",
-            "Gosma (99)",
-            "Asa de morcego (10)",
-            "Essência solar",
-            "Essência nula"
-        ]
+    "Sala da Caldeira": [
+        {
+            "Conjunto de Ferreiro": [
+                "Barra de cobre",
+                "Barra de ferro",
+                "Barra de ouro"
+            ]
+        },
+        {
+            "Conjunto de Geólogo": [
+                "Quartzo",
+                "Cristal de terra",
+                "Lágrima congelada",
+                "Quartzo de fogo"
+            ]
+        },
+        {
+            "Conjunto de Aventureiro": [
+                "Gosma (99)",
+                "Asa de morcego (10)",
+                "Essência solar",
+                "Essência nula"
+            ]
+        }
     ],
-    [
-        [
-            "Conjunto de Cozinheiro",
-            "Xarope de ácer",
-            "Broto de samambaia",
-            "Trufa",
-            "Papoula",
-            "Rolinhos de arroz",
-            "Ovo frito"
-        ],
-        [
-            "Conjunto Tinta",
-            "Cogumelo vermelho",
-            "Ouriço-do-mar",
-            "Girassol",
-            "Pena de pato",
-            "Água-marinha",
-            "Repolho roxo"
-        ],
-        [
-            "Conjunto Pesquisa de campo",
-            "Cogumelo roxo",
-            "Concha de náutilo",
-            "Esquálio",
-            "Geodo congelado"
-        ],
-        [
-            "Conjunto Forragem",
-            "Trigo (10)",
-            "Palha (10)",
-            "Maçã (3)"
-        ],
-        [
-            "Conjunto de Encantador",
-            "Resina de carvalho",
-            "Vinho",
-            "Pé de coelho",
-            "Romã"
-        ]
+    "Mural de Recados": [
+        {
+            "Conjunto de Cozinheiro": [
+                "Xarope de ácer",
+                "Broto de samambaia",
+                "Trufa",
+                "Papoula",
+                "Rolinhos de arroz",
+                "Ovo frito"
+            ]
+        },
+        {
+            "Conjunto Tinta": [
+                "Cogumelo vermelho",
+                "Ouriço-do-mar",
+                "Girassol",
+                "Pena de pato",
+                "Água-marinha",
+                "Repolho roxo"
+            ]
+        },
+        {
+            "Conjunto Pesquisa de campo": [
+                "Cogumelo roxo",
+                "Concha de náutilo",
+                "Esquálio",
+                "Geodo congelado"
+            ]
+        },
+        {
+            "Conjunto Forragem": [
+                "Trigo (10)",
+                "Palha (10)",
+                "Maçã (3)"
+            ]
+        },
+        {
+            "Conjunto de Encantador": [
+                "Resina de carvalho",
+                "Vinho",
+                "Pé de coelho",
+                "Romã"
+            ]
+        }
     ],
-    [
-        [
-            "Conjunto 2.500 ouros",
-            "data-sort-value=\"2500\">2 500 ouros"
-        ],
-        [
-            "Conjunto 5.000 ouros",
-            "data-sort-value=\"5000\">5 000 ouros"
-        ],
-        [
-            "Conjunto 10.000 ouros",
-            "data-sort-value=\"10000\">10 000 ouros"
-        ],
-        [
-            "Conjunto 25.000 ouros",
-            "data-sort-value=\"25000\">25 000 ouros"
-        ]
+    "Cofre": [
+        {
+            "Conjunto 2.500 ouros": [
+                "data-sort-value=\"2500\">2 500 ouros"
+            ]
+        },
+        {
+            "Conjunto 5.000 ouros": [
+                "data-sort-value=\"5000\">5 000 ouros"
+            ]
+        },
+        {
+            "Conjunto 10.000 ouros": [
+                "data-sort-value=\"10000\">10 000 ouros"
+            ]
+        },
+        {
+            "Conjunto 25.000 ouros": [
+                "data-sort-value=\"25000\">25 000 ouros"
+            ]
+        }
     ]
-]
+}
