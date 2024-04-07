@@ -123,17 +123,17 @@
             {
                 "Conjunto Construção": [
                     {
-                        "Madeira (99)": {
+                        "Madeira": {
                             "Origem": "Árvores"
                         }
                     },
                     {
-                        "Pedra (99)": {
+                        "Pedra": {
                             "Origem": "Rochas • Carpintaria • Pesca"
                         }
                     },
                     {
-                        "Madeira de lei (10)": {
+                        "Madeira de lei": {
                             "Origem": "Coleta"
                         }
                     }
@@ -294,22 +294,22 @@
             {
                 "Conjunto Plantações de Qualidade": [
                     {
-                        "Chirívia (5)": {
+                        "Chirívia": {
                             "Estação": " Primavera"
                         }
                     },
                     {
-                        "Melão (5)": {
+                        "Melão": {
                             "Estação": " Verão"
                         }
                     },
                     {
-                        "Abóbora (5)": {
+                        "Abóbora": {
                             "Estação": " Outono"
                         }
                     },
                     {
-                        "Milho (5)": {
+                        "Milho": {
                             "Estação": " Verão •  Outono"
                         }
                     }
@@ -358,7 +358,7 @@
             {
                 "Conjunto Artesão": [
                     {
-                        "Óleo de trufas (1)": {
+                        "Óleo de trufas": {
                             "Origem": "Mercadorias Artesanais",
                             "Estação": " Gerador de óleo"
                         }
@@ -605,12 +605,12 @@
             {
                 "Conjunto de Aventureiro": [
                     {
-                        "Gosma (99)": {
+                        "Gosma": {
                             "Origem": "Gosmas • Krobus • Bola de gosma • Carrinho de Viagem • Lago de Peixes"
                         }
                     },
                     {
-                        "Asa de morcego (10)": {
+                        "Asa de morcego": {
                             "Origem": " Morcego Morcego (perigoso) Morcego Congelado Morcego Congelado (perigoso) Morcego de Lava Krobus"
                         }
                     },
@@ -728,19 +728,19 @@
             {
                 "Conjunto Forragem": [
                     {
-                        "Trigo (10)": {
+                        "Trigo": {
                             "Estação": " Verão •  Outono"
                         }
                     },
                     {
-                        "Palha (10)": {
+                        "Palha": {
                             "Origem": "GramaTrigoRancho da MarnieComerciante do Deserto",
                             "Local(is)": "A Fazenda",
                             "Estação": " Primavera •  Verão •  Outono"
                         }
                     },
                     {
-                        "Maçã (3)": {
+                        "Maçã": {
                             "Origem": "Macieira"
                         }
                     }
@@ -776,40 +776,6 @@
                 ]
             },
             4
-        ]
-    ],
-    "Cofre": [
-        [
-            {
-                "Conjunto 2.500 ouros": [
-                    "data-sort-value=\"2500\">2 500 ouros"
-                ]
-            },
-            1
-        ],
-        [
-            {
-                "Conjunto 5.000 ouros": [
-                    "data-sort-value=\"5000\">5 000 ouros"
-                ]
-            },
-            1
-        ],
-        [
-            {
-                "Conjunto 10.000 ouros": [
-                    "data-sort-value=\"10000\">10 000 ouros"
-                ]
-            },
-            1
-        ],
-        [
-            {
-                "Conjunto 25.000 ouros": [
-                    "data-sort-value=\"25000\">25 000 ouros"
-                ]
-            },
-            1
         ]
     ]
 }

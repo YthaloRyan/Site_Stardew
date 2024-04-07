@@ -5,6 +5,7 @@ import json
 from Tools.coletar_salas import Salas
 from Tools.gerenciar_conjuntos import ConjuntosGer
 from Tools.salvar_json import SalvarJson
+import time
 
 
       
@@ -13,6 +14,7 @@ class Stardew:
         self.base_url = 'https://pt.stardewvalleywiki.com/'
             
     def main(self):
+        start_time = time.time()
         resultado = {}
         self.res = requests.get(f'{self.base_url}Conjuntos').text
         scrap_salas = Salas.ScrapSalas(self.res)
@@ -24,10 +26,17 @@ class Stardew:
         
         grupo_conjuntos = scrap_conjuntos.main()        
         
-        for n, nome in enumerate(nomes_salas):
+        for n, nome in enumerate(nomes_salas[0:-1]):
+            
             resultado[nome] = grupo_conjuntos[n]
          
         SalvarJson.salvar_json('dados', resultado)
+        
+        end_time = time.time()
+
+        # Tempo total decorrido
+        elapsed_time = end_time - start_time
+        print("Tempo decorrido:", elapsed_time, "segundos")
         
         
 

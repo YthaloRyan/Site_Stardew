@@ -1,10 +1,12 @@
 from bs4 import BeautifulSoup
 from Tools.coletar_infos import infos
+from concurrent.futures import ThreadPoolExecutor
 
 class Conjuntos():
     def __init__(self, res, salas):
         self.res = res
         self.salas = salas
+        self.url = 'https://pt.stardewvalleywiki.com/'
                     
     def coletar_conjuntos(self, sala_res) -> list:
         '''
@@ -28,31 +30,39 @@ class Conjuntos():
         Organiza o conjunto recebido transformando ele em um dicionario
         '''
         conjunto_nome = conjunto_res[0].text.strip()
+        print(f'======{conjunto_nome}=========', 'iniciado')
         num_objetivo = int(len(conjunto_res[1].find_all(class_='center'))) - 1
+        
+        if conjunto_nome == 'Cofre':
+            return [{conjunto_nome: []}, num_objetivo]
         
         conjunto = [{conjunto_nome: []}, num_objetivo]
         
         items_nomes = []
+        urls = []
         for info in conjunto_res[1:-1]:
             item_nome = info.text.strip().split('\n')[0]
             
             if item_nome not in items_nomes:
                 items_nomes.append(item_nome)
-            
-            if 'ouros' not in conjunto_nome:
-                item = infos.itens().main(item_nome)
-            else:
-                item = item_nome
-            
-            if item not in conjunto[0][conjunto_nome]:
-                conjunto[0][conjunto_nome].append(item)
+                urls.append(f'{self.url}{item_nome.split('(')[0].strip()}')
         
+        with ThreadPoolExecutor(max_workers=len(items_nomes)) as executor:
+            results = list(executor.map(infos.main_teste, urls))
+        
+        # results = []
+        # for url in urls:
+        #     results.append(infos.main_teste(url))
+        
+        conjunto[0][conjunto_nome] = results
+        
+        print(f'======{conjunto_nome}=========', 'finalizado')
         return conjunto
             
     def main(self) -> list:
         salas_organizadas = []
         
-        for sala in self.salas[:6]:
+        for sala in self.salas[:5]:
             conjuntos = []
             conjuntos_res = self.coletar_conjuntos(sala)
             
