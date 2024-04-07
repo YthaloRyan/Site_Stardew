@@ -11,7 +11,7 @@ from Tools.salvar_json import SalvarJson
 class Stardew:
     def __init__(self):
         self.base_url = 'https://pt.stardewvalleywiki.com/'
-        
+            
     def main(self):
         resultado = {}
         self.res = requests.get(f'{self.base_url}Conjuntos').text
@@ -22,10 +22,10 @@ class Stardew:
         
         scrap_conjuntos = ConjuntosGer.Conjuntos(self.res, salas)
         
-        conjuntos = scrap_conjuntos.main()
+        grupo_conjuntos = scrap_conjuntos.main()        
         
         for n, nome in enumerate(nomes_salas):
-            resultado[nome] = conjuntos[n]
+            resultado[nome] = grupo_conjuntos[n]
          
         SalvarJson.salvar_json('dados', resultado)
         

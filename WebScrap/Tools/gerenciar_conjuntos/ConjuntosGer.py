@@ -1,4 +1,5 @@
 from bs4 import BeautifulSoup
+from Tools.coletar_infos import infos
 
 class Conjuntos():
     def __init__(self, res, salas):
@@ -6,6 +7,9 @@ class Conjuntos():
         self.salas = salas
                     
     def coletar_conjuntos(self, sala_res) -> list:
+        '''
+        Coleta os conjuntos da sala_res recebida
+        '''
         conjuntos = []
 
         conjuntos_res = sala_res.find_all('table', class_='wikitable')
@@ -19,18 +23,30 @@ class Conjuntos():
         
         return conjuntos
     
-    def organizar_conjunto(self, conjunto_res) -> dict:
+    def organizar_conjunto(self, conjunto_res) -> list:
+        '''
+        Organiza o conjunto recebido transformando ele em um dicionario
+        '''
+        conjunto_nome = conjunto_res[0].text.strip()
+        num_objetivo = int(len(conjunto_res[1].find_all(class_='center'))) - 1
         
-        titulo = conjunto_res[0].text.strip()
-        conjunto = {titulo: []}
+        conjunto = [{conjunto_nome: []}, num_objetivo]
         
+        items_nomes = []
         for info in conjunto_res[1:-1]:
-            item = info.text.strip().split('\n')[0]
+            item_nome = info.text.strip().split('\n')[0]
             
-            if item not in conjunto[titulo]:
-                conjunto[titulo].append(item)
+            if item_nome not in items_nomes:
+                items_nomes.append(item_nome)
+            
+            if 'ouros' not in conjunto_nome:
+                item = infos.itens().main(item_nome)
+            else:
+                item = item_nome
+            
+            if item not in conjunto[0][conjunto_nome]:
+                conjunto[0][conjunto_nome].append(item)
         
-        print(type(conjunto))
         return conjunto
             
     def main(self) -> list:

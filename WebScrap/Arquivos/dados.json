@@ -1,262 +1,815 @@
 {
     "Sala de Artesanato": [
-        {
-            "Conjunto Recursos de Primavera": [
-                "Raiz-forte",
-                "Narciso",
-                "Alho-poró",
-                "Dente-de-leão"
-            ]
-        },
-        {
-            "Conjunto Recursos de Verão": [
-                "Uva",
-                "Café de jardim",
-                "Ervilha-de-cheiro"
-            ]
-        },
-        {
-            "Conjunto Recursos de Outono": [
-                "Cogumelo comum",
-                "Ameixa selvagem",
-                "Avelã",
-                "Amora"
-            ]
-        },
-        {
-            "Conjunto Recursos de Inverno": [
-                "Raiz de inverno",
-                "Fruta de cristal",
-                "Inhame de neve",
-                "Flor de açafrão"
-            ]
-        },
-        {
-            "Conjunto Construção": [
-                "Madeira (99)",
-                "Pedra (99)",
-                "Madeira de lei (10)"
-            ]
-        },
-        {
-            "Conjunto Recursos Exóticos": [
-                "Coco",
-                "Fruto do cacto",
-                "Cenoura subterrânea",
-                "Cogumelo vermelho",
-                "Cogumelo roxo",
-                "Xarope de ácer",
-                "Resina de carvalho",
-                "Alcatrão de pinho",
-                "Morel"
-            ]
-        }
+        [
+            {
+                "Conjunto Recursos de Primavera": [
+                    {
+                        "Raiz-forte": {
+                            "Origem": "Coleta • Sementes de primavera",
+                            "Estação": " Primavera"
+                        }
+                    },
+                    {
+                        "Narciso": {
+                            "Origem": "Coleta • Sementes de primavera",
+                            "Estação": " Primavera"
+                        }
+                    },
+                    {
+                        "Alho-poró": {
+                            "Origem": "Coleta • Sementes de primavera",
+                            "Estação": " Primavera"
+                        }
+                    },
+                    {
+                        "Dente-de-leão": {
+                            "Origem": "Coleta • Sementes de primavera • Dança das Flores",
+                            "Estação": " Primavera"
+                        }
+                    }
+                ]
+            },
+            4
+        ],
+        [
+            {
+                "Conjunto Recursos de Verão": [
+                    {
+                        "Uva": {
+                            "Origem": "Cultivo • Coleta",
+                            "Estação": " Outono (Mudas de uva) Verão (Sementes de verão e Coleta)"
+                        }
+                    },
+                    {
+                        "Café de jardim": {
+                            "Origem": "Coleta • Sementes de verão",
+                            "Estação": " Verão"
+                        }
+                    },
+                    {
+                        "Ervilha-de-cheiro": {
+                            "Origem": "Coleta • Sementes de verão",
+                            "Estação": " Verão"
+                        }
+                    }
+                ]
+            },
+            3
+        ],
+        [
+            {
+                "Conjunto Recursos de Outono": [
+                    {
+                        "Cogumelo comum": {
+                            "Origem": "Coleta • Sementes de outono • Caverna da Fazenda",
+                            "Local(is)": "Vale do Orvalho, incluindo o Bosque Secreto",
+                            "Estação": " Primavera •  Outono"
+                        }
+                    },
+                    {
+                        "Ameixa selvagem": {
+                            "Origem": "Coleta • Sementes de outono",
+                            "Estação": " Outono"
+                        }
+                    },
+                    {
+                        "Avelã": {
+                            "Origem": "Coleta • Sementes de outono",
+                            "Estação": " Outono"
+                        }
+                    },
+                    {
+                        "Amora": {
+                            "Origem": "Coleta • Sementes de outono",
+                            "Estação": " Outono"
+                        }
+                    }
+                ]
+            },
+            4
+        ],
+        [
+            {
+                "Conjunto Recursos de Inverno": [
+                    {
+                        "Raiz de inverno": {
+                            "Local(is)": "Arando o solo • Sementes de inverno  • Gosmas Azuis",
+                            "Estação": " Inverno"
+                        }
+                    },
+                    {
+                        "Fruta de cristal": {
+                            "Origem": "Coleta • Sementes de inverno • Espírito da poeira",
+                            "Estação": " Inverno"
+                        }
+                    },
+                    {
+                        "Inhame de neve": {
+                            "Origem": "Cavar o solo • Sementes de inverno",
+                            "Estação": " Inverno"
+                        }
+                    },
+                    {
+                        "Flor de açafrão": {
+                            "Origem": "Coleta • Sementes de inverno",
+                            "Estação": " Inverno"
+                        }
+                    }
+                ]
+            },
+            4
+        ],
+        [
+            {
+                "Conjunto Construção": [
+                    {
+                        "Madeira (99)": {
+                            "Origem": "Árvores"
+                        }
+                    },
+                    {
+                        "Pedra (99)": {
+                            "Origem": "Rochas • Carpintaria • Pesca"
+                        }
+                    },
+                    {
+                        "Madeira de lei (10)": {
+                            "Origem": "Coleta"
+                        }
+                    }
+                ]
+            },
+            4
+        ],
+        [
+            {
+                "Conjunto Recursos Exóticos": [
+                    {
+                        "Coco": {
+                            "Origem": "Coleta • Oásis",
+                            "Local(is)": "O Deserto • Ilha Gengibre",
+                            "Estação": " Todas"
+                        }
+                    },
+                    {
+                        "Fruto do cacto": {
+                            "Origem": "Coleta • Oásis • Sementes de Cacto",
+                            "Local(is)": "O Deserto",
+                            "Estação": " Todas"
+                        }
+                    },
+                    {
+                        "Cenoura subterrânea": {
+                            "Origem": "Coleta",
+                            "Local(is)": "As Minas • Latas de lixo",
+                            "Estação": " Todas"
+                        }
+                    },
+                    {
+                        "Cogumelo vermelho": {
+                            "Origem": "Coleta • A Caverna • Árvore de cogumelo",
+                            "Local(is)": "Bosque Secreto • As Minas",
+                            "Estação": " Verão"
+                        }
+                    },
+                    {
+                        "Cogumelo roxo": {
+                            "Origem": "As Minas • Caverna da Fazenda • Árvore de cogumelo",
+                            "Estação": " Todas"
+                        }
+                    },
+                    {
+                        "Xarope de ácer": {
+                            "Origem": "Artesanato",
+                            "Estação": " Torneirinha"
+                        }
+                    },
+                    {
+                        "Resina de carvalho": {
+                            "Origem": "\nArtesanato\n Caveira Assombrada (1.30%)",
+                            "Estação": " Torneirinha"
+                        }
+                    },
+                    {
+                        "Alcatrão de pinho": {
+                            "Origem": "Artesanato",
+                            "Estação": " Torneirinha"
+                        }
+                    },
+                    {
+                        "Morel": {
+                            "Origem": "Coleta • A Caverna",
+                            "Local(is)": "Bosque Secreto • Fazenda da floresta",
+                            "Estação": " Primavera"
+                        }
+                    }
+                ]
+            },
+            5
+        ]
     ],
     "Copa": [
-        {
-            "Conjunto Plantações de Primavera": [
-                "Chirívia",
-                "Vagem",
-                "Couve-flor",
-                "Batata"
-            ]
-        },
-        {
-            "Conjunto Plantações de Verão": [
-                "Tomate",
-                "Pimenta quente",
-                "Mirtilo",
-                "Melão"
-            ]
-        },
-        {
-            "Conjunto Plantações de Outono": [
-                "Milho",
-                "Berinjela",
-                "Abóbora",
-                "Inhame"
-            ]
-        },
-        {
-            "Conjunto Plantações de Qualidade": [
-                "Chirívia (5)",
-                "Melão (5)",
-                "Abóbora (5)",
-                "Milho (5)"
-            ]
-        },
-        {
-            "Conjunto Animal": [
-                "Leite grande",
-                "Ovo grande marrom",
-                "Ovo grande",
-                "Leite grande de cabra",
-                "Lã",
-                "Ovo de pata"
-            ]
-        },
-        {
-            "Conjunto Artesão": [
-                "Óleo de trufas (1)",
-                "Tecido",
-                "Queijo de cabra",
-                "Queijo",
-                "Mel",
-                "Geléia",
-                "Maçã",
-                "Damasco",
-                "Laranja",
-                "Pêssego",
-                "Romã",
-                "Cereja"
-            ]
-        }
+        [
+            {
+                "Conjunto Plantações de Primavera": [
+                    {
+                        "Chirívia": {
+                            "Estação": " Primavera"
+                        }
+                    },
+                    {
+                        "Vagem": {
+                            "Estação": " Primavera"
+                        }
+                    },
+                    {
+                        "Couve-flor": {
+                            "Estação": " Primavera"
+                        }
+                    },
+                    {
+                        "Batata": {
+                            "Estação": " Primavera"
+                        }
+                    }
+                ]
+            },
+            4
+        ],
+        [
+            {
+                "Conjunto Plantações de Verão": [
+                    {
+                        "Tomate": {
+                            "Estação": " Verão"
+                        }
+                    },
+                    {
+                        "Pimenta quente": {
+                            "Estação": " Verão"
+                        }
+                    },
+                    {
+                        "Mirtilo": {
+                            "Estação": " Verão"
+                        }
+                    },
+                    {
+                        "Melão": {
+                            "Estação": " Verão"
+                        }
+                    }
+                ]
+            },
+            4
+        ],
+        [
+            {
+                "Conjunto Plantações de Outono": [
+                    {
+                        "Milho": {
+                            "Estação": " Verão •  Outono"
+                        }
+                    },
+                    {
+                        "Berinjela": {
+                            "Estação": " Outono"
+                        }
+                    },
+                    {
+                        "Abóbora": {
+                            "Estação": " Outono"
+                        }
+                    },
+                    {
+                        "Inhame": {
+                            "Estação": " Outono"
+                        }
+                    }
+                ]
+            },
+            4
+        ],
+        [
+            {
+                "Conjunto Plantações de Qualidade": [
+                    {
+                        "Chirívia (5)": {
+                            "Estação": " Primavera"
+                        }
+                    },
+                    {
+                        "Melão (5)": {
+                            "Estação": " Verão"
+                        }
+                    },
+                    {
+                        "Abóbora (5)": {
+                            "Estação": " Outono"
+                        }
+                    },
+                    {
+                        "Milho (5)": {
+                            "Estação": " Verão •  Outono"
+                        }
+                    }
+                ]
+            },
+            3
+        ],
+        [
+            {
+                "Conjunto Animal": [
+                    {
+                        "Leite grande": {
+                            "Origem": "Vaca"
+                        }
+                    },
+                    {
+                        "Ovo grande marrom": {
+                            "Origem": "Galinhas"
+                        }
+                    },
+                    {
+                        "Ovo grande": {
+                            "Origem": "Galinhas"
+                        }
+                    },
+                    {
+                        "Leite grande de cabra": {
+                            "Origem": "Cabra"
+                        }
+                    },
+                    {
+                        "Lã": {
+                            "Origem": "Coelho • Ovelha"
+                        }
+                    },
+                    {
+                        "Ovo de pata": {
+                            "Origem": "Patos"
+                        }
+                    }
+                ]
+            },
+            5
+        ],
+        [
+            {
+                "Conjunto Artesão": [
+                    {
+                        "Óleo de trufas (1)": {
+                            "Origem": "Mercadorias Artesanais",
+                            "Estação": " Gerador de óleo"
+                        }
+                    },
+                    {
+                        "Tecido": {
+                            "Origem": "Mercadorias Artesanais",
+                            "Estação": " Tear"
+                        }
+                    },
+                    {
+                        "Queijo de cabra": {
+                            "Origem": "Mercadorias Artesanais",
+                            "Estação": " Prensa de queijo"
+                        }
+                    },
+                    {
+                        "Queijo": {
+                            "Origem": "Mercadorias ArtesanaisComerciante do Deserto",
+                            "Estação": " Prensa de queijo"
+                        }
+                    },
+                    {
+                        "Mel": {
+                            "Origem": "Mercadorias Artesanais • Oásis",
+                            "Estação": " Apiário"
+                        }
+                    },
+                    {
+                        "Geléia": {}
+                    },
+                    {
+                        "Maçã": {
+                            "Origem": "Macieira"
+                        }
+                    },
+                    {
+                        "Damasco": {
+                            "Origem": "Damasqueiro"
+                        }
+                    },
+                    {
+                        "Laranja": {
+                            "Origem": "Laranjeira"
+                        }
+                    },
+                    {
+                        "Pêssego": {
+                            "Origem": "Pessegueiro"
+                        }
+                    },
+                    {
+                        "Romã": {
+                            "Origem": "Romãzeira"
+                        }
+                    },
+                    {
+                        "Cereja": {
+                            "Origem": "Cerejeira"
+                        }
+                    }
+                ]
+            },
+            6
+        ]
     ],
     "Aquário": [
-        {
-            "Conjunto Peixes de Rio": [
-                "Peixe-sol",
-                "Bagre",
-                "Alocine",
-                "Salmão híbrido"
-            ]
-        },
-        {
-            "Conjunto Peixes de Lago": [
-                "Achigã",
-                "Carpa",
-                "Peixe-gato",
-                "Esturjão"
-            ]
-        },
-        {
-            "Conjunto Peixes de Oceano": [
-                "Sardinha",
-                "Atum",
-                "Cioba",
-                "Tilápia"
-            ]
-        },
-        {
-            "Conjunto Pesca Noturna": [
-                "Picão-verde",
-                "Brema",
-                "Enguia"
-            ]
-        },
-        {
-            "Conjunto Covo": [
-                "Lagosta",
-                "Lagostim",
-                "Caranguejo",
-                "Berbigão",
-                "Mexilhão",
-                "Camarão",
-                "Lesma",
-                "Caramujo",
-                "Ostra",
-                "Concha"
-            ]
-        },
-        {
-            "Conjunto Peixes Especializados": [
-                "Baiacu",
-                "Peixe-fantasma",
-                "Areinha",
-                "Madeirão"
-            ]
-        }
+        [
+            {
+                "Conjunto Peixes de Rio": [
+                    {
+                        "Peixe-sol": {}
+                    },
+                    {
+                        "Bagre": {}
+                    },
+                    {
+                        "Alocine": {}
+                    },
+                    {
+                        "Salmão híbrido": {}
+                    }
+                ]
+            },
+            4
+        ],
+        [
+            {
+                "Conjunto Peixes de Lago": [
+                    {
+                        "Achigã": {}
+                    },
+                    {
+                        "Carpa": {}
+                    },
+                    {
+                        "Peixe-gato": {}
+                    },
+                    {
+                        "Esturjão": {}
+                    }
+                ]
+            },
+            4
+        ],
+        [
+            {
+                "Conjunto Peixes de Oceano": [
+                    {
+                        "Sardinha": {}
+                    },
+                    {
+                        "Atum": {}
+                    },
+                    {
+                        "Cioba": {}
+                    },
+                    {
+                        "Tilápia": {}
+                    }
+                ]
+            },
+            4
+        ],
+        [
+            {
+                "Conjunto Pesca Noturna": [
+                    {
+                        "Picão-verde": {}
+                    },
+                    {
+                        "Brema": {}
+                    },
+                    {
+                        "Enguia": {}
+                    }
+                ]
+            },
+            3
+        ],
+        [
+            {
+                "Conjunto Covo": [
+                    {
+                        "Lagosta": {}
+                    },
+                    {
+                        "Lagostim": {}
+                    },
+                    {
+                        "Caranguejo": {}
+                    },
+                    {
+                        "Berbigão": {}
+                    },
+                    {
+                        "Mexilhão": {}
+                    },
+                    {
+                        "Camarão": {}
+                    },
+                    {
+                        "Lesma": {}
+                    },
+                    {
+                        "Caramujo": {}
+                    },
+                    {
+                        "Ostra": {}
+                    },
+                    {
+                        "Concha": {}
+                    }
+                ]
+            },
+            5
+        ],
+        [
+            {
+                "Conjunto Peixes Especializados": [
+                    {
+                        "Baiacu": {}
+                    },
+                    {
+                        "Peixe-fantasma": {}
+                    },
+                    {
+                        "Areinha": {}
+                    },
+                    {
+                        "Madeirão": {}
+                    }
+                ]
+            },
+            4
+        ]
     ],
     "Sala da Caldeira": [
-        {
-            "Conjunto de Ferreiro": [
-                "Barra de cobre",
-                "Barra de ferro",
-                "Barra de ouro"
-            ]
-        },
-        {
-            "Conjunto de Geólogo": [
-                "Quartzo",
-                "Cristal de terra",
-                "Lágrima congelada",
-                "Quartzo de fogo"
-            ]
-        },
-        {
-            "Conjunto de Aventureiro": [
-                "Gosma (99)",
-                "Asa de morcego (10)",
-                "Essência solar",
-                "Essência nula"
-            ]
-        }
+        [
+            {
+                "Conjunto de Ferreiro": [
+                    {
+                        "Barra de cobre": {
+                            "Origem": "Fornalha",
+                            "Estação": " Fornalha"
+                        }
+                    },
+                    {
+                        "Barra de ferro": {
+                            "Origem": "Artesanato • Fornalha",
+                            "Estação": " Fornalha"
+                        }
+                    },
+                    {
+                        "Barra de ouro": {
+                            "Origem": "Artesanato • Fornalha • Escavação nas Minas • Drops de Monstros",
+                            "Estação": " Fornalha"
+                        }
+                    }
+                ]
+            },
+            3
+        ],
+        [
+            {
+                "Conjunto de Geólogo": [
+                    {
+                        "Quartzo": {}
+                    },
+                    {
+                        "Cristal de terra": {}
+                    },
+                    {
+                        "Lágrima congelada": {}
+                    },
+                    {
+                        "Quartzo de fogo": {}
+                    }
+                ]
+            },
+            4
+        ],
+        [
+            {
+                "Conjunto de Aventureiro": [
+                    {
+                        "Gosma (99)": {
+                            "Origem": "Gosmas • Krobus • Bola de gosma • Carrinho de Viagem • Lago de Peixes"
+                        }
+                    },
+                    {
+                        "Asa de morcego (10)": {
+                            "Origem": " Morcego Morcego (perigoso) Morcego Congelado Morcego Congelado (perigoso) Morcego de Lava Krobus"
+                        }
+                    },
+                    {
+                        "Essência solar": {
+                            "Origem": " Fantasma Morcego de Irí­dio Cabeça de metal Caveira Assombrada Face Múmia Krobus Peixe-sol (Lago de Peixes)"
+                        }
+                    },
+                    {
+                        "Essência nula": {
+                            "Origem": " Bruto das sombras Xamã das sombras Caveira Assombrada Serpente Krobus Salmão nulo (Lago de Peixes)"
+                        }
+                    }
+                ]
+            },
+            2
+        ]
     ],
     "Mural de Recados": [
-        {
-            "Conjunto de Cozinheiro": [
-                "Xarope de ácer",
-                "Broto de samambaia",
-                "Trufa",
-                "Papoula",
-                "Rolinhos de arroz",
-                "Ovo frito"
-            ]
-        },
-        {
-            "Conjunto Tinta": [
-                "Cogumelo vermelho",
-                "Ouriço-do-mar",
-                "Girassol",
-                "Pena de pato",
-                "Água-marinha",
-                "Repolho roxo"
-            ]
-        },
-        {
-            "Conjunto Pesquisa de campo": [
-                "Cogumelo roxo",
-                "Concha de náutilo",
-                "Esquálio",
-                "Geodo congelado"
-            ]
-        },
-        {
-            "Conjunto Forragem": [
-                "Trigo (10)",
-                "Palha (10)",
-                "Maçã (3)"
-            ]
-        },
-        {
-            "Conjunto de Encantador": [
-                "Resina de carvalho",
-                "Vinho",
-                "Pé de coelho",
-                "Romã"
-            ]
-        }
+        [
+            {
+                "Conjunto de Cozinheiro": [
+                    {
+                        "Xarope de ácer": {
+                            "Origem": "Artesanato",
+                            "Estação": " Torneirinha"
+                        }
+                    },
+                    {
+                        "Broto de samambaia": {
+                            "Origem": "Coleta",
+                            "Local(is)": "Bosque Secreto • Caverna da Caveira • Selva da Ilha Gengibre",
+                            "Estação": " Verão Todas na Selva da Ilha Gengibre e na Caverna da Caveira"
+                        }
+                    },
+                    {
+                        "Trufa": {
+                            "Origem": "Porcos",
+                            "Estação": " Primavera •  Verão •  Outono"
+                        }
+                    },
+                    {
+                        "Papoula": {
+                            "Estação": " Verão"
+                        }
+                    },
+                    {
+                        "Rolinhos de arroz": {}
+                    },
+                    {
+                        "Ovo frito": {}
+                    }
+                ]
+            },
+            6
+        ],
+        [
+            {
+                "Conjunto Tinta": [
+                    {
+                        "Cogumelo vermelho": {
+                            "Origem": "Coleta • A Caverna • Árvore de cogumelo",
+                            "Local(is)": "Bosque Secreto • As Minas",
+                            "Estação": " Verão"
+                        }
+                    },
+                    {
+                        "Ouriço-do-mar": {}
+                    },
+                    {
+                        "Girassol": {
+                            "Estação": " Verão •  Outono"
+                        }
+                    },
+                    {
+                        "Pena de pato": {
+                            "Origem": "Pato • Carrinho de Viagem"
+                        }
+                    },
+                    {
+                        "Água-marinha": {}
+                    },
+                    {
+                        "Repolho roxo": {
+                            "Estação": " Verão"
+                        }
+                    }
+                ]
+            },
+            6
+        ],
+        [
+            {
+                "Conjunto Pesquisa de campo": [
+                    {
+                        "Cogumelo roxo": {
+                            "Origem": "As Minas • Caverna da Fazenda • Árvore de cogumelo",
+                            "Estação": " Todas"
+                        }
+                    },
+                    {
+                        "Concha de náutilo": {}
+                    },
+                    {
+                        "Esquálio": {}
+                    },
+                    {
+                        "Geodo congelado": {}
+                    }
+                ]
+            },
+            4
+        ],
+        [
+            {
+                "Conjunto Forragem": [
+                    {
+                        "Trigo (10)": {
+                            "Estação": " Verão •  Outono"
+                        }
+                    },
+                    {
+                        "Palha (10)": {
+                            "Origem": "GramaTrigoRancho da MarnieComerciante do Deserto",
+                            "Local(is)": "A Fazenda",
+                            "Estação": " Primavera •  Verão •  Outono"
+                        }
+                    },
+                    {
+                        "Maçã (3)": {
+                            "Origem": "Macieira"
+                        }
+                    }
+                ]
+            },
+            3
+        ],
+        [
+            {
+                "Conjunto de Encantador": [
+                    {
+                        "Resina de carvalho": {
+                            "Origem": "\nArtesanato\n Caveira Assombrada (1.30%)",
+                            "Estação": " Torneirinha"
+                        }
+                    },
+                    {
+                        "Vinho": {
+                            "Origem": "Mercadorias Artesanais",
+                            "Estação": " Barril"
+                        }
+                    },
+                    {
+                        "Pé de coelho": {
+                            "Origem": "CoelhoSerpente drop (0,8%)Carrinho de Viagem"
+                        }
+                    },
+                    {
+                        "Romã": {
+                            "Origem": "Romãzeira"
+                        }
+                    }
+                ]
+            },
+            4
+        ]
     ],
     "Cofre": [
-        {
-            "Conjunto 2.500 ouros": [
-                "data-sort-value=\"2500\">2 500 ouros"
-            ]
-        },
-        {
-            "Conjunto 5.000 ouros": [
-                "data-sort-value=\"5000\">5 000 ouros"
-            ]
-        },
-        {
-            "Conjunto 10.000 ouros": [
-                "data-sort-value=\"10000\">10 000 ouros"
-            ]
-        },
-        {
-            "Conjunto 25.000 ouros": [
-                "data-sort-value=\"25000\">25 000 ouros"
-            ]
-        }
+        [
+            {
+                "Conjunto 2.500 ouros": [
+                    "data-sort-value=\"2500\">2 500 ouros"
+                ]
+            },
+            1
+        ],
+        [
+            {
+                "Conjunto 5.000 ouros": [
+                    "data-sort-value=\"5000\">5 000 ouros"
+                ]
+            },
+            1
+        ],
+        [
+            {
+                "Conjunto 10.000 ouros": [
+                    "data-sort-value=\"10000\">10 000 ouros"
+                ]
+            },
+            1
+        ],
+        [
+            {
+                "Conjunto 25.000 ouros": [
+                    "data-sort-value=\"25000\">25 000 ouros"
+                ]
+            },
+            1
+        ]
     ]
 }
