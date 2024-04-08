@@ -6,25 +6,25 @@
                     {
                         "Raiz-forte": {
                             "Origem": "Coleta • Sementes de primavera",
-                            "Estação": " Primavera"
+                            "Estação": "Primavera"
                         }
                     },
                     {
                         "Narciso": {
                             "Origem": "Coleta • Sementes de primavera",
-                            "Estação": " Primavera"
+                            "Estação": "Primavera"
                         }
                     },
                     {
                         "Alho-poró": {
                             "Origem": "Coleta • Sementes de primavera",
-                            "Estação": " Primavera"
+                            "Estação": "Primavera"
                         }
                     },
                     {
                         "Dente-de-leão": {
                             "Origem": "Coleta • Sementes de primavera • Dança das Flores",
-                            "Estação": " Primavera"
+                            "Estação": "Primavera"
                         }
                     }
                 ]
@@ -37,19 +37,19 @@
                     {
                         "Uva": {
                             "Origem": "Cultivo • Coleta",
-                            "Estação": " Outono (Mudas de uva) Verão (Sementes de verão e Coleta)"
+                            "Estação": "Outono (Mudas de uva) Verão (Sementes de verão e Coleta)"
                         }
                     },
                     {
                         "Café de jardim": {
                             "Origem": "Coleta • Sementes de verão",
-                            "Estação": " Verão"
+                            "Estação": "Verão"
                         }
                     },
                     {
                         "Ervilha-de-cheiro": {
                             "Origem": "Coleta • Sementes de verão",
-                            "Estação": " Verão"
+                            "Estação": "Verão"
                         }
                     }
                 ]
@@ -63,25 +63,25 @@
                         "Cogumelo comum": {
                             "Origem": "Coleta • Sementes de outono • Caverna da Fazenda",
                             "Local(is)": "Vale do Orvalho, incluindo o Bosque Secreto",
-                            "Estação": " Primavera •  Outono"
+                            "Estação": "Primavera •  Outono"
                         }
                     },
                     {
                         "Ameixa selvagem": {
                             "Origem": "Coleta • Sementes de outono",
-                            "Estação": " Outono"
+                            "Estação": "Outono"
                         }
                     },
                     {
                         "Avelã": {
                             "Origem": "Coleta • Sementes de outono",
-                            "Estação": " Outono"
+                            "Estação": "Outono"
                         }
                     },
                     {
                         "Amora": {
                             "Origem": "Coleta • Sementes de outono",
-                            "Estação": " Outono"
+                            "Estação": "Outono"
                         }
                     }
                 ]
@@ -94,25 +94,25 @@
                     {
                         "Raiz de inverno": {
                             "Local(is)": "Arando o solo • Sementes de inverno  • Gosmas Azuis",
-                            "Estação": " Inverno"
+                            "Estação": "Inverno"
                         }
                     },
                     {
                         "Fruta de cristal": {
                             "Origem": "Coleta • Sementes de inverno • Espírito da poeira",
-                            "Estação": " Inverno"
+                            "Estação": "Inverno"
                         }
                     },
                     {
                         "Inhame de neve": {
                             "Origem": "Cavar o solo • Sementes de inverno",
-                            "Estação": " Inverno"
+                            "Estação": "Inverno"
                         }
                     },
                     {
                         "Flor de açafrão": {
                             "Origem": "Coleta • Sementes de inverno",
-                            "Estação": " Inverno"
+                            "Estação": "Inverno"
                         }
                     }
                 ]
@@ -123,17 +123,17 @@
             {
                 "Conjunto Construção": [
                     {
-                        "Madeira": {
+                        "Madeira (99)": {
                             "Origem": "Árvores"
                         }
                     },
                     {
-                        "Pedra": {
+                        "Pedra (99)": {
                             "Origem": "Rochas • Carpintaria • Pesca"
                         }
                     },
                     {
-                        "Madeira de lei": {
+                        "Madeira de lei (10)": {
                             "Origem": "Coleta"
                         }
                     }
@@ -148,59 +148,59 @@
                         "Coco": {
                             "Origem": "Coleta • Oásis",
                             "Local(is)": "O Deserto • Ilha Gengibre",
-                            "Estação": " Todas"
+                            "Estação": "Todas"
                         }
                     },
                     {
                         "Fruto do cacto": {
                             "Origem": "Coleta • Oásis • Sementes de Cacto",
                             "Local(is)": "O Deserto",
-                            "Estação": " Todas"
+                            "Estação": "Todas"
                         }
                     },
                     {
                         "Cenoura subterrânea": {
                             "Origem": "Coleta",
                             "Local(is)": "As Minas • Latas de lixo",
-                            "Estação": " Todas"
+                            "Estação": "Todas"
                         }
                     },
                     {
                         "Cogumelo vermelho": {
                             "Origem": "Coleta • A Caverna • Árvore de cogumelo",
                             "Local(is)": "Bosque Secreto • As Minas",
-                            "Estação": " Verão"
+                            "Estação": "Verão"
                         }
                     },
                     {
                         "Cogumelo roxo": {
                             "Origem": "As Minas • Caverna da Fazenda • Árvore de cogumelo",
-                            "Estação": " Todas"
+                            "Estação": "Todas"
                         }
                     },
                     {
                         "Xarope de ácer": {
                             "Origem": "Artesanato",
-                            "Estação": " Torneirinha"
+                            "Estação": "Torneirinha"
                         }
                     },
                     {
                         "Resina de carvalho": {
-                            "Origem": "\nArtesanato\n Caveira Assombrada (1.30%)",
-                            "Estação": " Torneirinha"
+                            "Origem": "Artesanato\n Caveira Assombrada (1.30%)",
+                            "Estação": "Torneirinha"
                         }
                     },
                     {
                         "Alcatrão de pinho": {
                             "Origem": "Artesanato",
-                            "Estação": " Torneirinha"
+                            "Estação": "Torneirinha"
                         }
                     },
                     {
                         "Morel": {
                             "Origem": "Coleta • A Caverna",
                             "Local(is)": "Bosque Secreto • Fazenda da floresta",
-                            "Estação": " Primavera"
+                            "Estação": "Primavera"
                         }
                     }
                 ]
@@ -214,22 +214,22 @@
                 "Conjunto Plantações de Primavera": [
                     {
                         "Chirívia": {
-                            "Estação": " Primavera"
+                            "Estação": "Primavera"
                         }
                     },
                     {
                         "Vagem": {
-                            "Estação": " Primavera"
+                            "Estação": "Primavera"
                         }
                     },
                     {
                         "Couve-flor": {
-                            "Estação": " Primavera"
+                            "Estação": "Primavera"
                         }
                     },
                     {
                         "Batata": {
-                            "Estação": " Primavera"
+                            "Estação": "Primavera"
                         }
                     }
                 ]
@@ -241,22 +241,22 @@
                 "Conjunto Plantações de Verão": [
                     {
                         "Tomate": {
-                            "Estação": " Verão"
+                            "Estação": "Verão"
                         }
                     },
                     {
                         "Pimenta quente": {
-                            "Estação": " Verão"
+                            "Estação": "Verão"
                         }
                     },
                     {
                         "Mirtilo": {
-                            "Estação": " Verão"
+                            "Estação": "Verão"
                         }
                     },
                     {
                         "Melão": {
-                            "Estação": " Verão"
+                            "Estação": "Verão"
                         }
                     }
                 ]
@@ -268,22 +268,22 @@
                 "Conjunto Plantações de Outono": [
                     {
                         "Milho": {
-                            "Estação": " Verão •  Outono"
+                            "Estação": "Verão •  Outono"
                         }
                     },
                     {
                         "Berinjela": {
-                            "Estação": " Outono"
+                            "Estação": "Outono"
                         }
                     },
                     {
                         "Abóbora": {
-                            "Estação": " Outono"
+                            "Estação": "Outono"
                         }
                     },
                     {
                         "Inhame": {
-                            "Estação": " Outono"
+                            "Estação": "Outono"
                         }
                     }
                 ]
@@ -294,23 +294,23 @@
             {
                 "Conjunto Plantações de Qualidade": [
                     {
-                        "Chirívia": {
-                            "Estação": " Primavera"
+                        "Chirívia (5)": {
+                            "Estação": "Primavera"
                         }
                     },
                     {
-                        "Melão": {
-                            "Estação": " Verão"
+                        "Melão (5)": {
+                            "Estação": "Verão"
                         }
                     },
                     {
-                        "Abóbora": {
-                            "Estação": " Outono"
+                        "Abóbora (5)": {
+                            "Estação": "Outono"
                         }
                     },
                     {
-                        "Milho": {
-                            "Estação": " Verão •  Outono"
+                        "Milho (5)": {
+                            "Estação": "Verão •  Outono"
                         }
                     }
                 ]
@@ -358,33 +358,33 @@
             {
                 "Conjunto Artesão": [
                     {
-                        "Óleo de trufas": {
+                        "Óleo de trufas (1)": {
                             "Origem": "Mercadorias Artesanais",
-                            "Estação": " Gerador de óleo"
+                            "Estação": "Gerador de óleo"
                         }
                     },
                     {
                         "Tecido": {
                             "Origem": "Mercadorias Artesanais",
-                            "Estação": " Tear"
+                            "Estação": "Tear"
                         }
                     },
                     {
                         "Queijo de cabra": {
                             "Origem": "Mercadorias Artesanais",
-                            "Estação": " Prensa de queijo"
+                            "Estação": "Prensa de queijo"
                         }
                     },
                     {
                         "Queijo": {
                             "Origem": "Mercadorias ArtesanaisComerciante do Deserto",
-                            "Estação": " Prensa de queijo"
+                            "Estação": "Prensa de queijo"
                         }
                     },
                     {
                         "Mel": {
                             "Origem": "Mercadorias Artesanais • Oásis",
-                            "Estação": " Apiário"
+                            "Estação": "Apiário"
                         }
                     },
                     {
@@ -430,16 +430,36 @@
             {
                 "Conjunto Peixes de Rio": [
                     {
-                        "Peixe-sol": {}
+                        "Peixe-sol": {
+                            "Local(is)": "Rio",
+                            "Hora": "6:00 - 19:00",
+                            "Estação": "Primavera •  Verão",
+                            "Tempo": "Sol •  Vento"
+                        }
                     },
                     {
-                        "Bagre": {}
+                        "Bagre": {
+                            "Local(is)": "Rio • Bosque Secreto • Pântano da bruxa",
+                            "Hora": "06:00 - 00:00",
+                            "Estação": "Primavera •  Outono\nBosque Secreto/Pântano da bruxa: Primavera •  Verão •  Outono",
+                            "Tempo": "Chuva"
+                        }
                     },
                     {
-                        "Alocine": {}
+                        "Alocine": {
+                            "Local(is)": "Rio",
+                            "Hora": "9:00 até 2:00",
+                            "Estação": "Primavera •  Verão •  Outono",
+                            "Tempo": "Chuva"
+                        }
                     },
                     {
-                        "Salmão híbrido": {}
+                        "Salmão híbrido": {
+                            "Local(is)": "Rio",
+                            "Hora": "6:00 - 19:00",
+                            "Estação": "Outono •  Inverno",
+                            "Tempo": "Qualquer"
+                        }
                     }
                 ]
             },
@@ -449,16 +469,36 @@
             {
                 "Conjunto Peixes de Lago": [
                     {
-                        "Achigã": {}
+                        "Achigã": {
+                            "Local(is)": "Lago Da Montanha • Fazenda Remota",
+                            "Hora": "6:00 até 19:00",
+                            "Estação": "Todas",
+                            "Tempo": "Qualquer"
+                        }
                     },
                     {
-                        "Carpa": {}
+                        "Carpa": {
+                            "Local(is)": "Lago das montanhas • Bosque Secreto • Os Esgotos • Covil dos Insetos Mutantes",
+                            "Hora": "Qualquer",
+                            "Estação": "Todas",
+                            "Tempo": "Qualquer"
+                        }
                     },
                     {
-                        "Peixe-gato": {}
+                        "Peixe-gato": {
+                            "Local(is)": "Lago da Montanha",
+                            "Hora": "Qualquer",
+                            "Estação": "Todas",
+                            "Tempo": "Qualquer"
+                        }
                     },
                     {
-                        "Esturjão": {}
+                        "Esturjão": {
+                            "Local(is)": "Lago da montanha",
+                            "Hora": "6:00 - 19:00",
+                            "Estação": "Verão •  Inverno",
+                            "Tempo": "Qualquer"
+                        }
                     }
                 ]
             },
@@ -468,16 +508,36 @@
             {
                 "Conjunto Peixes de Oceano": [
                     {
-                        "Sardinha": {}
+                        "Sardinha": {
+                            "Local(is)": "Oceano",
+                            "Hora": "6:00 as 19:00",
+                            "Estação": "Primavera •  Outono •  Inverno",
+                            "Tempo": "Qualquer"
+                        }
                     },
                     {
-                        "Atum": {}
+                        "Atum": {
+                            "Local(is)": "Oceano",
+                            "Hora": "6:00 às 19:00",
+                            "Estação": "Verão •  Inverno",
+                            "Tempo": "Qualquer"
+                        }
                     },
                     {
-                        "Cioba": {}
+                        "Cioba": {
+                            "Local(is)": "Oceano",
+                            "Hora": "6:00 - 19:00",
+                            "Estação": "Verão •  Outono •  Inverno",
+                            "Tempo": "Chuva"
+                        }
                     },
                     {
-                        "Tilápia": {}
+                        "Tilápia": {
+                            "Local(is)": "Oceano",
+                            "Hora": "6:00 - 14:00",
+                            "Estação": "Verão •  Outono",
+                            "Tempo": "Qualquer"
+                        }
                     }
                 ]
             },
@@ -487,13 +547,28 @@
             {
                 "Conjunto Pesca Noturna": [
                     {
-                        "Picão-verde": {}
+                        "Picão-verde": {
+                            "Local(is)": "Rio • Lagoa da Floresta • Lago da Montanha • Lagoa da Fazenda na Floresta",
+                            "Hora": "12:00 - 2:00",
+                            "Estação": "Outono •  Inverno com Totem de chuva",
+                            "Tempo": "Chuva"
+                        }
                     },
                     {
-                        "Brema": {}
+                        "Brema": {
+                            "Local(is)": "Rio",
+                            "Hora": "18:00 às 2:00",
+                            "Estação": "Todas",
+                            "Tempo": "Qualquer"
+                        }
                     },
                     {
-                        "Enguia": {}
+                        "Enguia": {
+                            "Local(is)": "Oceano",
+                            "Hora": "16:00 - 2:00",
+                            "Estação": "Primavera •  Outono",
+                            "Tempo": "Chuva"
+                        }
                     }
                 ]
             },
@@ -503,34 +578,64 @@
             {
                 "Conjunto Covo": [
                     {
-                        "Lagosta": {}
+                        "Lagosta": {
+                            "Local(is)": "Covo:  Oceano",
+                            "Estação": "Todas"
+                        }
                     },
                     {
-                        "Lagostim": {}
+                        "Lagostim": {
+                            "Local(is)": "Covo: água doce",
+                            "Estação": "Todas"
+                        }
                     },
                     {
-                        "Caranguejo": {}
+                        "Caranguejo": {
+                            "Local(is)": "Covo: Oceano\nDrop de Monstros: Caranguejo-pedra • Caranguejo-lava",
+                            "Estação": "Todas"
+                        }
                     },
                     {
-                        "Berbigão": {}
+                        "Berbigão": {
+                            "Local(is)": "Covo:  Oceano\nColeta: A Praia",
+                            "Estação": "Todas"
+                        }
                     },
                     {
-                        "Mexilhão": {}
+                        "Mexilhão": {
+                            "Local(is)": "Covo:  Oceano\nColeta: A Praia\nNó de Mexilhão",
+                            "Estação": "Todas"
+                        }
                     },
                     {
-                        "Camarão": {}
+                        "Camarão": {
+                            "Local(is)": "Covo:  Oceano",
+                            "Estação": "Todas"
+                        }
                     },
                     {
-                        "Lesma": {}
+                        "Lesma": {
+                            "Local(is)": "Covo: água doce",
+                            "Estação": "Todas"
+                        }
                     },
                     {
-                        "Caramujo": {}
+                        "Caramujo": {
+                            "Local(is)": "Covo: água doce",
+                            "Estação": "Todas"
+                        }
                     },
                     {
-                        "Ostra": {}
+                        "Ostra": {
+                            "Local(is)": "Covo: Oceano\nColeta: A Praia",
+                            "Estação": "Todas"
+                        }
                     },
                     {
-                        "Concha": {}
+                        "Concha": {
+                            "Origem": "Covo: Oceano\nColeta: A Praia",
+                            "Estação": "Todas"
+                        }
                     }
                 ]
             },
@@ -540,16 +645,36 @@
             {
                 "Conjunto Peixes Especializados": [
                     {
-                        "Baiacu": {}
+                        "Baiacu": {
+                            "Local(is)": "Oceano",
+                            "Hora": "12:00 - 16:00",
+                            "Estação": "Verão",
+                            "Tempo": "Sol"
+                        }
                     },
                     {
-                        "Peixe-fantasma": {}
+                        "Peixe-fantasma": {
+                            "Local(is)": "As Minas",
+                            "Hora": "Qualquer",
+                            "Estação": "Todas",
+                            "Tempo": "Qualquer"
+                        }
                     },
                     {
-                        "Areinha": {}
+                        "Areinha": {
+                            "Local(is)": "O Deserto",
+                            "Hora": "6:00 - 20:00",
+                            "Estação": "Todas",
+                            "Tempo": "Qualquer"
+                        }
                     },
                     {
-                        "Madeirão": {}
+                        "Madeirão": {
+                            "Local(is)": "Bosque Secreto • Fazenda na Floresta",
+                            "Hora": "Qualquer",
+                            "Estação": "Todas",
+                            "Tempo": "Qualquer"
+                        }
                     }
                 ]
             },
@@ -563,19 +688,19 @@
                     {
                         "Barra de cobre": {
                             "Origem": "Fornalha",
-                            "Estação": " Fornalha"
+                            "Estação": "Fornalha"
                         }
                     },
                     {
                         "Barra de ferro": {
                             "Origem": "Artesanato • Fornalha",
-                            "Estação": " Fornalha"
+                            "Estação": "Fornalha"
                         }
                     },
                     {
                         "Barra de ouro": {
                             "Origem": "Artesanato • Fornalha • Escavação nas Minas • Drops de Monstros",
-                            "Estação": " Fornalha"
+                            "Estação": "Fornalha"
                         }
                     }
                 ]
@@ -586,16 +711,24 @@
             {
                 "Conjunto de Geólogo": [
                     {
-                        "Quartzo": {}
+                        "Quartzo": {
+                            "Origem": "As Minas • Peneira de cobre"
+                        }
                     },
                     {
-                        "Cristal de terra": {}
+                        "Cristal de terra": {
+                            "Origem": "As Minas Geodo Omnigeodo Cavador (10%) Caveira Assombrada (1.30%) Garimpo Pesca"
+                        }
                     },
                     {
-                        "Lágrima congelada": {}
+                        "Lágrima congelada": {
+                            "Origem": "As Minas • Geodos congelados • Omnigeodos • Peneira de cobre • Espíritos da poeiras • Pesca"
+                        }
                     },
                     {
-                        "Quartzo de fogo": {}
+                        "Quartzo de fogo": {
+                            "Origem": "Mina • Geodo de magma • Omnigeodo • Peneira de cobre • Baú de tesouro"
+                        }
                     }
                 ]
             },
@@ -605,23 +738,23 @@
             {
                 "Conjunto de Aventureiro": [
                     {
-                        "Gosma": {
+                        "Gosma (99)": {
                             "Origem": "Gosmas • Krobus • Bola de gosma • Carrinho de Viagem • Lago de Peixes"
                         }
                     },
                     {
-                        "Asa de morcego": {
-                            "Origem": " Morcego Morcego (perigoso) Morcego Congelado Morcego Congelado (perigoso) Morcego de Lava Krobus"
+                        "Asa de morcego (10)": {
+                            "Origem": "Morcego Morcego (perigoso) Morcego Congelado Morcego Congelado (perigoso) Morcego de Lava Krobus"
                         }
                     },
                     {
                         "Essência solar": {
-                            "Origem": " Fantasma Morcego de Irí­dio Cabeça de metal Caveira Assombrada Face Múmia Krobus Peixe-sol (Lago de Peixes)"
+                            "Origem": "Fantasma Morcego de Irí­dio Cabeça de metal Caveira Assombrada Face Múmia Krobus Peixe-sol (Lago de Peixes)"
                         }
                     },
                     {
                         "Essência nula": {
-                            "Origem": " Bruto das sombras Xamã das sombras Caveira Assombrada Serpente Krobus Salmão nulo (Lago de Peixes)"
+                            "Origem": "Bruto das sombras Xamã das sombras Caveira Assombrada Serpente Krobus Salmão nulo (Lago de Peixes)"
                         }
                     }
                 ]
@@ -636,32 +769,36 @@
                     {
                         "Xarope de ácer": {
                             "Origem": "Artesanato",
-                            "Estação": " Torneirinha"
+                            "Estação": "Torneirinha"
                         }
                     },
                     {
                         "Broto de samambaia": {
                             "Origem": "Coleta",
                             "Local(is)": "Bosque Secreto • Caverna da Caveira • Selva da Ilha Gengibre",
-                            "Estação": " Verão Todas na Selva da Ilha Gengibre e na Caverna da Caveira"
+                            "Estação": "Verão Todas na Selva da Ilha Gengibre e na Caverna da Caveira"
                         }
                     },
                     {
                         "Trufa": {
                             "Origem": "Porcos",
-                            "Estação": " Primavera •  Verão •  Outono"
+                            "Estação": "Primavera •  Verão •  Outono"
                         }
                     },
                     {
                         "Papoula": {
-                            "Estação": " Verão"
+                            "Estação": "Verão"
                         }
                     },
                     {
-                        "Rolinhos de arroz": {}
+                        "Rolinhos de arroz": {
+                            "Origem": "Culinária"
+                        }
                     },
                     {
-                        "Ovo frito": {}
+                        "Ovo frito": {
+                            "Origem": "Culinária"
+                        }
                     }
                 ]
             },
@@ -674,15 +811,19 @@
                         "Cogumelo vermelho": {
                             "Origem": "Coleta • A Caverna • Árvore de cogumelo",
                             "Local(is)": "Bosque Secreto • As Minas",
-                            "Estação": " Verão"
+                            "Estação": "Verão"
                         }
                     },
                     {
-                        "Ouriço-do-mar": {}
+                        "Ouriço-do-mar": {
+                            "Origem": "Coleta",
+                            "Local(is)": "A Praia",
+                            "Estação": "Todas"
+                        }
                     },
                     {
                         "Girassol": {
-                            "Estação": " Verão •  Outono"
+                            "Estação": "Verão •  Outono"
                         }
                     },
                     {
@@ -691,11 +832,13 @@
                         }
                     },
                     {
-                        "Água-marinha": {}
+                        "Água-marinha": {
+                            "Origem": "Nó de Água marinha Nó de Gemas  Pescando Peneira de cobre Sentinela Anã"
+                        }
                     },
                     {
                         "Repolho roxo": {
-                            "Estação": " Verão"
+                            "Estação": "Verão"
                         }
                     }
                 ]
@@ -708,17 +851,28 @@
                     {
                         "Cogumelo roxo": {
                             "Origem": "As Minas • Caverna da Fazenda • Árvore de cogumelo",
-                            "Estação": " Todas"
+                            "Estação": "Todas"
                         }
                     },
                     {
-                        "Concha de náutilo": {}
+                        "Concha de náutilo": {
+                            "Origem": "Coleta",
+                            "Local(is)": "A Praia",
+                            "Estação": "Inverno"
+                        }
                     },
                     {
-                        "Esquálio": {}
+                        "Esquálio": {
+                            "Local(is)": "Lago da Montanha • Rio da floresta",
+                            "Hora": "Qualquer",
+                            "Estação": "Todas",
+                            "Tempo": "Qualquer"
+                        }
                     },
                     {
-                        "Geodo congelado": {}
+                        "Geodo congelado": {
+                            "Origem": "Mineração • Pesca"
+                        }
                     }
                 ]
             },
@@ -728,19 +882,19 @@
             {
                 "Conjunto Forragem": [
                     {
-                        "Trigo": {
-                            "Estação": " Verão •  Outono"
+                        "Trigo (10)": {
+                            "Estação": "Verão •  Outono"
                         }
                     },
                     {
-                        "Palha": {
+                        "Palha (10)": {
                             "Origem": "GramaTrigoRancho da MarnieComerciante do Deserto",
                             "Local(is)": "A Fazenda",
-                            "Estação": " Primavera •  Verão •  Outono"
+                            "Estação": "Primavera •  Verão •  Outono"
                         }
                     },
                     {
-                        "Maçã": {
+                        "Maçã (3)": {
                             "Origem": "Macieira"
                         }
                     }
@@ -753,14 +907,14 @@
                 "Conjunto de Encantador": [
                     {
                         "Resina de carvalho": {
-                            "Origem": "\nArtesanato\n Caveira Assombrada (1.30%)",
-                            "Estação": " Torneirinha"
+                            "Origem": "Artesanato\n Caveira Assombrada (1.30%)",
+                            "Estação": "Torneirinha"
                         }
                     },
                     {
                         "Vinho": {
                             "Origem": "Mercadorias Artesanais",
-                            "Estação": " Barril"
+                            "Estação": "Barril"
                         }
                     },
                     {

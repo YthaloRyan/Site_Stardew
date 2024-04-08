@@ -6,7 +6,6 @@ class Conjuntos():
     def __init__(self, res, salas):
         self.res = res
         self.salas = salas
-        self.url = 'https://pt.stardewvalleywiki.com/'
                     
     def coletar_conjuntos(self, sala_res) -> list:
         '''
@@ -39,16 +38,14 @@ class Conjuntos():
         conjunto = [{conjunto_nome: []}, num_objetivo]
         
         items_nomes = []
-        urls = []
+        
         for info in conjunto_res[1:-1]:
             item_nome = info.text.strip().split('\n')[0]
             
             if item_nome not in items_nomes:
                 items_nomes.append(item_nome)
-                urls.append(f'{self.url}{item_nome.split('(')[0].strip()}')
-        
-        with ThreadPoolExecutor(max_workers=len(items_nomes)) as executor:
-            results = list(executor.map(infos.main_teste, urls))
+                
+        results = infos.coletar_multiplas(items_nomes)                  
         
         # results = []
         # for url in urls:
