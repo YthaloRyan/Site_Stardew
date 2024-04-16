@@ -9,3 +9,5 @@ def salvar_json(nome, conteudo):
     json_string = json.dumps(conteudo, ensure_ascii=False, indent=4)
     with open(caminho_arquivo, 'w', encoding='utf-8') as arquivo:
         arquivo.write(json_string)
+
+    print('Json Salvo')

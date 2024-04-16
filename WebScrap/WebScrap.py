@@ -1,44 +1,39 @@
 import requests
-from bs4 import BeautifulSoup
-from pprint import pprint
-import json
 from Tools.coletar_salas import Salas
 from Tools.gerenciar_conjuntos import ConjuntosGer
 from Tools.salvar_json import SalvarJson
 import time
 
 
-      
 class Stardew:
     def __init__(self):
         self.base_url = 'https://pt.stardewvalleywiki.com/'
-            
-    def main(self):
-        start_time = time.time()
-        resultado = {}
         self.res = requests.get(f'{self.base_url}Conjuntos').text
-        scrap_salas = Salas.ScrapSalas(self.res)
-        
-        nomes_salas = scrap_salas.coletar_nomes_salas()
-        salas = scrap_salas.coletar_salas()
-        
-        scrap_conjuntos = ConjuntosGer.Conjuntos(self.res, salas)
-        
-        grupo_conjuntos = scrap_conjuntos.main()        
-        
-        for n, nome in enumerate(nomes_salas[0:-1]):
-            
-            resultado[nome] = grupo_conjuntos[n]
-         
-        SalvarJson.salvar_json('dados', resultado)
-        
-        end_time = time.time()
 
-        # Tempo total decorrido
-        elapsed_time = end_time - start_time
-        print("Tempo decorrido:", elapsed_time, "segundos")
-        
-        
+    def stardew_salas(self) -> dict:
+        salas = {}
+        scrap_salas = Salas.ScrapSalas(self.res)
+
+        nomes_salas = scrap_salas.coletar_nomes_salas()
+        res_salas = scrap_salas.coletar_salas()
+
+        for n, nome in enumerate(nomes_salas):
+            salas[nome] = res_salas[n]
+
+        return salas
+
+    def main(self):
+        salas = self.stardew_salas()
+        resultado = ConjuntosGer.multiples(salas)
+
+        SalvarJson.salvar_json('dados', resultado)
+
 
 if __name__ == "__main__":
+    start_time = time.time()
+
     Stardew().main()
+    end_time = time.time()
+
+    elapsed_time = end_time - start_time
+    print("Tempo decorrido:", elapsed_time, "segundos")
