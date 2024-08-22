@@ -186,7 +186,6 @@
                     {
                         "Pedra (99)": {
                             "Origem": [
-                                "Rochas",
                                 "Carpintaria",
                                 "Pesca"
                             ]
@@ -265,19 +264,25 @@
                     {
                         "Xarope de ácer": {
                             "Origem": "Artesanato",
-                            "Estação": "Torneirinha"
+                            "Estação": "Torneirinha",
+                            "Ingredientes": "Ácer"
                         }
                     },
                     {
                         "Resina de carvalho": {
-                            "Origem": "Artesanato\n Caveira Assombrada (1.30%)",
-                            "Estação": "Torneirinha"
+                            "Origem": [
+                                "Artesanato",
+                                "Caveira Assombrada"
+                            ],
+                            "Estação": "Torneirinha",
+                            "Ingredientes": "Carvalho"
                         }
                     },
                     {
                         "Alcatrão de pinho": {
                             "Origem": "Artesanato",
-                            "Estação": "Torneirinha"
+                            "Estação": "Torneirinha",
+                            "Ingredientes": "Pinheiro"
                         }
                     },
                     {
@@ -459,25 +464,38 @@
                     {
                         "Óleo de trufas (1)": {
                             "Origem": "Mercadorias Artesanais",
-                            "Estação": "Gerador de óleo"
+                            "Estação": "Gerador de óleo",
+                            "Ingredientes": "Trufa"
                         }
                     },
                     {
                         "Tecido": {
                             "Origem": "Mercadorias Artesanais",
-                            "Estação": "Tear"
+                            "Estação": "Tear",
+                            "Ingredientes": "Lã (1)"
                         }
                     },
                     {
                         "Queijo de cabra": {
                             "Origem": "Mercadorias Artesanais",
-                            "Estação": "Prensa de queijo"
+                            "Estação": "Prensa de queijo",
+                            "Ingredientes": [
+                                "Leite de cabra (1)",
+                                "Leite grande de cabra (1)"
+                            ]
                         }
                     },
                     {
                         "Queijo": {
-                            "Origem": "Mercadorias ArtesanaisComerciante do Deserto",
-                            "Estação": "Prensa de queijo"
+                            "Origem": [
+                                "Mercadorias Artesanais",
+                                "Comerciante do Deserto"
+                            ],
+                            "Estação": "Prensa de queijo",
+                            "Ingredientes": [
+                                "Leite (1)",
+                                "Leite grande (1)"
+                            ]
                         }
                     },
                     {
@@ -486,7 +504,8 @@
                                 "Mercadorias Artesanais",
                                 "Oásis"
                             ],
-                            "Estação": "Apiário"
+                            "Estação": "Apiário",
+                            "Ingredientes": "Variedade de flores"
                         }
                     },
                     {
@@ -855,7 +874,11 @@
                     {
                         "Barra de cobre": {
                             "Origem": "Fornalha",
-                            "Estação": "Fornalha"
+                            "Estação": "Fornalha",
+                            "Ingredientes": [
+                                "Minério de cobre (5)",
+                                "Carvão (1)"
+                            ]
                         }
                     },
                     {
@@ -864,7 +887,11 @@
                                 "Artesanato",
                                 "Fornalha"
                             ],
-                            "Estação": "Fornalha"
+                            "Estação": "Fornalha",
+                            "Ingredientes": [
+                                "Minério de ferro (5)",
+                                "Carvão (1)"
+                            ]
                         }
                     },
                     {
@@ -872,10 +899,15 @@
                             "Origem": [
                                 "Artesanato",
                                 "Fornalha",
-                                "Escavação nas Minas",
-                                "Drops de Monstros"
+                                "Escavação",
+                                "Minas",
+                                "Monstros"
                             ],
-                            "Estação": "Fornalha"
+                            "Estação": "Fornalha",
+                            "Ingredientes": [
+                                "Minério de ouro (5)",
+                                "Carvão (1)"
+                            ]
                         }
                     }
                 ]
@@ -995,7 +1027,8 @@
                     {
                         "Xarope de ácer": {
                             "Origem": "Artesanato",
-                            "Estação": "Torneirinha"
+                            "Estação": "Torneirinha",
+                            "Ingredientes": "Ácer"
                         }
                     },
                     {
@@ -1030,12 +1063,17 @@
                     },
                     {
                         "Rolinhos de arroz": {
-                            "Origem": "Culinária"
+                            "Origem": "Culinária",
+                            "Ingredientes": [
+                                "Algas marinhas (1)",
+                                "Arroz (1)"
+                            ]
                         }
                     },
                     {
                         "Ovo frito": {
-                            "Origem": "Culinária"
+                            "Origem": "Culinária",
+                            "Ingredientes": "Ovo (1)"
                         }
                     }
                 ]
@@ -1158,7 +1196,12 @@
                     },
                     {
                         "Palha (10)": {
-                            "Origem": "GramaTrigoRancho da MarnieComerciante do Deserto",
+                            "Origem": [
+                                "Grama",
+                                "Trigo",
+                                "Rancho da Marnie",
+                                "Comerciante do Deserto"
+                            ],
                             "Local(is)": "A Fazenda",
                             "Estação": [
                                 "Primavera",
@@ -1181,19 +1224,28 @@
                 "Conjunto de Encantador": [
                     {
                         "Resina de carvalho": {
-                            "Origem": "Artesanato\n Caveira Assombrada (1.30%)",
-                            "Estação": "Torneirinha"
+                            "Origem": [
+                                "Artesanato",
+                                "Caveira Assombrada"
+                            ],
+                            "Estação": "Torneirinha",
+                            "Ingredientes": "Carvalho"
                         }
                     },
                     {
                         "Vinho": {
                             "Origem": "Mercadorias Artesanais",
-                            "Estação": "Barril"
+                            "Estação": "Barril",
+                            "Ingredientes": "Qualquer fruta (1)"
                         }
                     },
                     {
                         "Pé de coelho": {
-                            "Origem": "CoelhoSerpente drop (0,8%)Carrinho de Viagem"
+                            "Origem": [
+                                "Coelho",
+                                "Serpente",
+                                "Carrinho de Viagem"
+                            ]
                         }
                     },
                     {

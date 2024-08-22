@@ -8,7 +8,7 @@ class Coletar:
         self.url_base = 'https://pt.stardewvalleywiki.com/'
         self.item_nome = item_nome
         self.infos_dict = {self.item_nome: {}}
-        self.titulos = ['Local(is)', 'Hora', 'Estação', 'Tempo', 'Origem']
+        self.titulos = ['Local(is)', 'Hora', 'Estação', 'Tempo', 'Origem', 'Ingredientes']
         self.url = self.url_base + self.item_nome.split('(')[0].strip()
 
     def coletar_res(self):
@@ -27,33 +27,40 @@ class Coletar:
                 continue
             
             
-            if titulo in self.titulos:
-                infos = []
-                infobox = tr.find(id='infoboxdetail')
-                infos_res = infobox.find_all('span')
-        
-                if infos_res:
-                    for info in infos_res:
-                        info = info.text.strip()
-                        
-                        
-                        if ' • ' not in info:
-                            infos.append(info)
+            if titulo not in self.titulos:
+                continue
+            
+            
+            infos = []
+            infobox = tr.find(id='infoboxdetail')
+            infos_res = infobox.find_all('span')
+    
+            if infos_res:
+                for info in infos_res:
+                    
+                    info = info.text.strip()
+                    
+                    if ' • ' not in info:
+                        infos.append(info)
+            
+            elif titulo == 'Origem':
+                    info = infobox.find_all('a')
+                    
+                    infos = [inf.text.strip() for inf in info]
+                    
+            else:
+                info = infobox.text.strip()
                 
-                else:
-                    info = infobox.text.strip()
-                    
-                    
-                    if titulo == 'Hora':
-                        infos = ' - '.join(info.split(' ')[::2])
-                        
-                    else:   
-                        infos = info.split(' • ')
+                if titulo == 'Hora':
+                    infos = ' - '.join(info.split(' ')[::2])
+                
+                else:   
+                    infos = info.split(' • ')
 
-                if len(infos) == 1:
-                    infos = ''.join(infos)
-                
-                self.infos_dict[self.item_nome][titulo] = infos
+            if len(infos) == 1:
+                infos = ''.join(infos)
+            
+            self.infos_dict[self.item_nome][titulo] = infos
 
     def start(self) -> dict:
         print(self.item_nome, 'iniciado')
@@ -78,4 +85,3 @@ def coletar_multiplas_infos(items_nomes: list) -> list:
         finalizado.append(resultado.result())
 
     return finalizado
-

@@ -3,7 +3,6 @@ from Tools.coletar_infos import Infos
 from Tools.salvar_json import SalvarJson
 from concurrent.futures import ThreadPoolExecutor
 
-
 salas_organizadas = []
 
 def coletar_conjuntos_res(sala_res) -> list:

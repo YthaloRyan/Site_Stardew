@@ -7,8 +7,7 @@ import time
 
 class Stardew:
     def __init__(self):
-        self.base_url = 'https://pt.stardewvalleywiki.com/'
-        self.res = requests.get(f'{self.base_url}Conjuntos').text
+        self.base_url = 'https://pt.stardewvalleywiki.com/' 
 
     def stardew_salas(self) -> dict:
         salas = {}
@@ -23,6 +22,8 @@ class Stardew:
         return salas
 
     def main(self):
+        self.res = requests.get(f'{self.base_url}Conjuntos').text
+        
         salas = self.stardew_salas()
         resultado = ConjuntosGer.multiples(salas)
 
